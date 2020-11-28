@@ -1,9 +1,9 @@
-package com.pilog.demo.service;
+package com.bharat.demo.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.pilog.demo.model.Employee;
+import com.bharat.demo.model.Employee;
 
 public interface EmployeeService {
 

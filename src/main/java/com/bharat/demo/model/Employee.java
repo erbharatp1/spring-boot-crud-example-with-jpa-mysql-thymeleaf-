@@ -1,4 +1,4 @@
-package com.pilog.demo.model;
+package com.bharat.demo.model;
 
 import java.io.Serializable;
 

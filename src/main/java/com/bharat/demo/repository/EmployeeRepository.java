@@ -1,17 +1,17 @@
-package com.pilog.demo.repo;
+package com.bharat.demo.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.pilog.demo.model.Employee;
+import com.bharat.demo.model.Employee;
 /**
  * 
  * @author Bharat
  *
  */
 @Repository
-public interface EmployeeRepo extends JpaRepository<Employee, Long> {
+public interface EmployeeRepository extends JpaRepository<Employee, Long> {
  
 }

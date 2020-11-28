@@ -1,4 +1,4 @@
-package com.pilog.demo.controller;
+package com.bharat.demo.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.pilog.demo.model.Employee;
-import com.pilog.demo.service.EmployeeService;
+import com.bharat.demo.model.Employee;
+import com.bharat.demo.service.EmployeeService;
 
 /**
  * 

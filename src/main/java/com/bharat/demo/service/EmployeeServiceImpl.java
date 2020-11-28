@@ -1,4 +1,4 @@
-package com.pilog.demo.service;
+package com.bharat.demo.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,8 +8,8 @@ import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.pilog.demo.model.Employee;
-import com.pilog.demo.repo.EmployeeRepo;
+import com.bharat.demo.model.Employee;
+import com.bharat.demo.repository.EmployeeRepository;
 
 /**
  * 
@@ -19,7 +19,7 @@ import com.pilog.demo.repo.EmployeeRepo;
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
-	private EmployeeRepo employeeRepo;
+	private EmployeeRepository employeeRepo;
 
 	@Override
 	@Transactional
